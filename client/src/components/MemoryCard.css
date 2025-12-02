@@ -1,0 +1,12 @@
+.card{background:linear-gradient(180deg,rgba(255,255,255,0.98),rgba(250,247,240,1));border-radius:14px;overflow:hidden;box-shadow:0 10px 30px rgba(60,48,40,0.06);border:1px solid rgba(147,129,106,0.08);display:flex;flex-direction:column;transition:transform .18s ease,box-shadow .18s ease;}
+.card:hover{transform:translateY(-6px);box-shadow:0 18px 36px rgba(60,48,40,0.10);}
+.photo-wrap img{width:100%;height:170px;object-fit:cover;display:block;border-bottom:1px solid rgba(147,129,106,0.06);}
+.card-body{padding:.9rem 1rem 1.2rem;}
+.card-title{margin:0;font-family:'Gloock',serif;color:var(--deep-sage);font-size:1.15rem;}
+.card-desc{margin:.5rem 0 .8rem;color:var(--ink);font-size:.95rem;min-height:2.4rem;}
+.card-actions{display:flex;gap:8px;}
+.btn{padding:.4rem .7rem;border-radius:10px;border:none;cursor:pointer;font-weight:600;font-size:.9rem;}
+.btn.edit{background:var(--sage);color:#fffefc;}
+.btn.delete{background:var(--soft-brown);color:#fffefc;}
+.fade-in{animation:fadeInUp .6s cubic-bezier(.2,.8,.2,1);}
+@keyframes fadeInUp{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:translateY(0)}}
